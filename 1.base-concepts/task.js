@@ -1,6 +1,6 @@
 function solveEquation(a, b, c) {
   let arr;
-  // код для задачи №1 писать здесь
+  // код для задачи №1 писать здесь1
   return arr; // array
 }
 
