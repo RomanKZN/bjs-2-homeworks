@@ -70,10 +70,10 @@ class Library {
   constructor(name) {
     this.name = name;
     this.books = [];
-    this.state = 100;
+    //this.state = 100;
   }
   addBook(book) {
-    if (this.state > 30) this.books.push(book);
+    if (book.state > 30) this.books.push(book);
   }
   findBookBy(type, value) {
     const book = this.books.find((book) => book[type] === value);
